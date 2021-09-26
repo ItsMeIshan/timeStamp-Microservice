@@ -1,0 +1,26 @@
+{
+  "name": "time-stamp",
+  "version": "1.0.0",
+  "description": "A basic back-end application that gives unix timeStamp for valid date and vice versa.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsMeIshan/timeStamp-Microservice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsMeIshan/timeStamp-Microservice/issues"
+  },
+  "homepage": "https://github.com/ItsMeIshan/timeStamp-Microservice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "nodemon": "^2.0.13"
+  }
+}
