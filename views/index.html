@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>TimeStamp Microservice</h1>
+      <p>
+        On <span>/api/:date</span> route provide the date as a parameter and
+        you'll get an object <span>{unix: timestamp, utc: timestamp}</span>
+      </p>
+      <h3>Note: Date should be in format of YYYY-MM-DD</h3>
+      <h4>For Example: if date is 2021-09-26 then api route will be</h4>
+      <p><a href="/api/2021-09-26">[url]/api/2021-09-26</a></p>
+      <h4 class="contains-code">
+        A request to <span>/api/1451001600000</span> will return
+        <span
+          >{ unix: 1451001600000, utc: "Fri, 25 Dec 2015 00:00:00 GMT" }</span
+        >
+      </h4>
+      <p><a href="/api/1632614400000">[url]/api/1632614400000</a></p>
+    </div>
+  </body>
+</html>
